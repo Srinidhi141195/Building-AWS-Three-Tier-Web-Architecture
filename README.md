@@ -1,1 +1,8 @@
 # Building-AWS-Three-Tier-Web-Architecture
+
+The three-tier application architecture, vital in software development since the 1990s, faces challenges with cloud integration due to its monolithic structure. In this architecture, a public-facing Application Load Balancer directs client traffic to EC2 instances in the web tier, where Nginx web servers host a React.js website and reroute API calls to an internal load balancer. This load balancer then forwards traffic to the Node.js-based application tier, which interacts with an Aurora MySQL multi-AZ database. Each layer incorporates load balancing, health checks, and autoscaling groups to ensure the system's availability.
+
+Step by step procedural guide to complete the workshop will be found below:
+
+https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-USThe three-tier application architecture, vital in software development since the 1990s, faces challenges with cloud integration due to its monolithic structure. In this architecture, a public-facing Application Load Balancer directs client traffic to EC2 instances in the web tier, where Nginx web servers host a React.js website and reroute API calls to an internal load balancer. This load balancer then forwards traffic to the Node.js-based application tier, which interacts with an Aurora MySQL multi-AZ database. Each layer incorporates load balancing, health checks, and autoscaling groups to ensure the system's availability. Step by step procedural guide to complete the workshop will be found below: https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-US
+Skills: Python (Programming Language) · Amazon Web Services (AWS)
